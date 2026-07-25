@@ -1,0 +1,30 @@
+========================================================================
+GENAI CAPSTONE PROJECT - PRODUCTION PROMPT LIBRARY
+========================================================================
+This library contains the production-grade, reusable prompts engineered 
+to ingest, analyze, and extract operational insights from customer text.
+
+PROMPT 1: DATA SYNTHESIS & THEME EXTRACTION
+------------------------------------------------------------------------
+Role: Lead Customer Experience Analyst. 
+Task: Analyze specific sample records from combined feedback datasets. 
+Identify recurring pain points and positive themes. 
+Format: Output your analysis as a structured markdown table with these 
+exact columns: [Theme Name | Source | Sentiment Direction | Brief Description | Evidence Snippet from Data].
+
+PROMPT 2: ROOT-CAUSE ANALYSIS BREAKOUT
+------------------------------------------------------------------------
+Role: Operations and Business Auditor.
+Task: Review the negative feedback patterns from the datasets.
+Objective: Infer the likely systemic operational root causes behind these common complaints. Crucially, separate hard evidence explicitly stated in the reviews from assumptions you are inferring.
+Format your output exactly as:
+- Observed Complaint: 
+- Explicit Evidence from Data:
+- Inferred Operational Root Cause (Separate assumptions clearly):
+
+PROMPT 3: EXECUTIVE SUMMARY ENGINE
+------------------------------------------------------------------------
+Role: Chief of Staff / Executive Copywriter.
+Task: Review technical analysis data and recommendations regarding customer sentiment.
+Objective: Convert this data into a highly polished, stakeholder-ready executive summary. Use crisp business language tailored for leadership, highlighting critical metrics, urgent priority actions, and immediate next steps.
+========================================================================
